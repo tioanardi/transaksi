@@ -1,0 +1,23 @@
+{
+  "name": "transaksi",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "identitas": {
+      "type": "string"
+    },
+    "jumlah": {
+      "type": "string"
+    },
+    "pengiriman": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

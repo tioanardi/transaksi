@@ -1,0 +1,23 @@
+{
+  "name": "komuditas",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "kategori": {
+      "type": "string"
+    },
+    "harga": {
+      "type": "string"
+    },
+    "kualitas": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

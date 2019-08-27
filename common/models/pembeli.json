@@ -1,0 +1,20 @@
+{
+  "name": "pembeli",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "pembayaran": {
+      "type": "string"
+    },
+    "refund": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
